@@ -1,0 +1,596 @@
+FILE: dump.txt
+
+
+__________________________ vmemDump call number 0 __________________________
+VMEM contents:
+
+FRAME 000:
+000000    30 30 30 30 30 30 30 30  30 30 30 30 30 30 30 30    "0000000000000000"
+000010    30 30 30 30 30 30 30 30  30 30 30 30 30 30 30 30    "0000000000000000"
+000020    30 30 30 30 30 30 30 30  30 30 30 30 30 30 30 30    "0000000000000000"
+000030    30 30 30 30 30 30 30 30  30 30 30 30 30 30 30 30    "0000000000000000"
+
+FRAME 001:
+000000    31 31 31 31 31 31 31 31  31 31 31 31 31 31 31 31    "1111111111111111"
+000010    31 31 31 31 31 31 31 31  31 31 31 31 31 31 31 31    "1111111111111111"
+000020    31 31 31 31 31 31 31 31  31 31 31 31 31 31 31 31    "1111111111111111"
+000030    31 31 31 31 31 31 31 31  31 31 31 31 31 31 31 31    "1111111111111111"
+
+FRAME 002:
+000000    32 32 32 32 32 32 32 32  32 32 32 32 32 32 32 32    "2222222222222222"
+000010    32 32 32 32 32 32 32 32  32 32 32 32 32 32 32 32    "2222222222222222"
+000020    32 32 32 32 32 32 32 32  32 32 32 32 32 32 32 32    "2222222222222222"
+000030    32 32 32 32 32 32 32 32  32 32 32 32 32 32 32 32    "2222222222222222"
+
+FRAME 003:
+000000    33 33 33 33 33 33 33 33  33 33 33 33 33 33 33 33    "3333333333333333"
+000010    33 33 33 33 33 33 33 33  33 33 33 33 33 33 33 33    "3333333333333333"
+000020    33 33 33 33 33 33 33 33  33 33 33 33 33 33 33 33    "3333333333333333"
+000030    33 33 33 33 33 33 33 33  33 33 33 33 33 33 33 33    "3333333333333333"
+
+FRAME 004:
+000000    34 34 34 34 34 34 34 34  34 34 34 34 34 34 34 34    "4444444444444444"
+000010    34 34 34 34 34 34 34 34  34 34 34 34 34 34 34 34    "4444444444444444"
+000020    34 34 34 34 34 34 34 34  34 34 34 34 34 34 34 34    "4444444444444444"
+000030    34 34 34 34 34 34 34 34  34 34 34 34 34 34 34 34    "4444444444444444"
+
+FRAME 005:
+000000    35 35 35 35 35 35 35 35  35 35 35 35 35 35 35 35    "5555555555555555"
+000010    35 35 35 35 35 35 35 35  35 35 35 35 35 35 35 35    "5555555555555555"
+000020    35 35 35 35 35 35 35 35  35 35 35 35 35 35 35 35    "5555555555555555"
+000030    35 35 35 35 35 35 35 35  35 35 35 35 35 35 35 35    "5555555555555555"
+
+FRAME 006:
+000000    36 36 36 36 36 36 36 36  36 36 36 36 36 36 36 36    "6666666666666666"
+000010    36 36 36 36 36 36 36 36  36 36 36 36 36 36 36 36    "6666666666666666"
+000020    36 36 36 36 36 36 36 36  36 36 36 36 36 36 36 36    "6666666666666666"
+000030    36 36 36 36 36 36 36 36  36 36 36 36 36 36 36 36    "6666666666666666"
+
+FRAME 007:
+000000    37 37 37 37 37 37 37 37  37 37 37 37 37 37 37 37    "7777777777777777"
+000010    37 37 37 37 37 37 37 37  37 37 37 37 37 37 37 37    "7777777777777777"
+000020    37 37 37 37 37 37 37 37  37 37 37 37 37 37 37 37    "7777777777777777"
+000030    37 37 37 37 37 37 37 37  37 37 37 37 37 37 37 37    "7777777777777777"
+______________________ end of vmemDump call number 0 _______________________
+
+___________________________ segDump call number 0 __________________________
+
+DISK ADDRESS 0xFA10:
+DATA SEGMENT:
+
+f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0
+0                                                f
+f          I came home today                     0
+0          and you were all on fire.             f
+f          Your shirt was on fire,               0
+0          and your hair was IN YOUR FACE,       f
+f          and flames were licking all around    0
+0          your feet.                            f
+f          And I did not know what to do!        0
+0          And then a thousand violins           f
+f          began to play,                        0
+0          and I really did not know             f
+f          what to do then.                      0
+0          So I just decided to go out           f
+f          and walk the PLANK.                   0
+0                                                f
+f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0
+
+
+DISK ADDRESS 0xFA11:
+DATA SEGMENT:
+
+f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1
+1                                                            f
+f     I went to the movies,                                  1
+1     and I saw a BUG thirty feet high.                      f
+f     And this dog was made entirely                         1
+1     of light.                                              f
+f     And he filled up the whole screen.                     1
+1     And his eyes were long hallways.                       f
+f     He had those                                           1
+1     long, echoing, hallway eyes.                           f
+f                                                            1
+1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f
+
+
+DISK ADDRESS 0xFA12:
+DATA SEGMENT:
+
+f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2
+2                                                f
+f       I turned on the radio                    2
+2       and I heard a song by Dolly Parton.      f
+f       And she was singing:                     2
+2       Oh! I feel so sad! I feel so bad!        f
+f       I left my mom and I left my dad.         2
+2       And I just want to go home now.          f
+f       I just want to go back to my             2
+2       Tennessee mountain home now.             f
+f       Well, you know she's not                 2
+2       gonna go back home.                      f
+f       And I know she's not                     2
+2       gonna go back home.                      f
+f       And she knows she's never                2
+2       gonna go back there.                     f
+f       And I just want to know who's            2
+2       gonna go and walk her dog.               f
+f                                                2
+2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f
+
+
+DISK ADDRESS 0xFA13:
+DATA SEGMENT:
+
+f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3
+3                                                                  f
+f              Oh! I feel so bad.                                  3
+3              MY DOG IS sad.                                      f
+f              But not as bad as the night                         3
+3              I wrote this song.                                  f
+f                                                                  3
+3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f
+
+
+DISK ADDRESS 0xFA20:
+DATA SEGMENT:
+
+                                 * 
+         * WHO ARE YOU? * i think i know what love is * 
+    * i think i know what love is? * i think i know * i think * 
+                        * what is love? * 
+  * what is love? * mmm how do you say... * delicious? * delovely * 
+     * delectable * devine * how do you say... * degorgeous? * 
+    * dewith it? * degroovy? * define? * ooh lala lalalalalala * 
+* faux francaise * how do you say delicious? * how do you say delovely? * 
+       * how do you say delectable? * how do you say devine? * 
+ * how do you say degroovy? * GETWITHIT! * how do you say deee-lEte? * 
+   * we've been trying to find out, is there really such a thing? * 
+                                *
+
+
+DISK ADDRESS 0xFA30:
+DATA SEGMENT:
+
+**********************LUCY&RICKY&FRED&ETHEL&LUCY
+&                                              &
+L     There's a certain couple that I know.    R
+E     They're strictly love birds.             I
+H     A pair of turtle dove birds.             C
+T     He's a guy who wants the world to know,  K
+E     So ev'ry day you'll hear him say:        Y
+&     I love Lucy and she loves me.            &
+D     We're as happy as two can be.            F
+E     Sometimes we quarrel but then            R
+R     How we love making up again.             E
+F     Lucy kisses like no one can.             D
+&     She's my missus and I'm her man.         &
+Y     And life is heaven, you see,             E
+K     'Cause I love Lucy,                      T
+C     Yes, I love Lucy                         H
+I     And Lucy loves me.                       E
+R                                              L
+&                                              &
+YCUL&LEHTE&DERF&YKCIR&YCUL&LEHTE&DERF&YKCIR&YCUL
+
+
+DISK ADDRESS 0xFA31:
+DATA SEGMENT:
+
+DooWopDooWopDooWopDooWopDooWopDooWopDooWopDooWop
+p                                              D
+o     guys, you know you better                o
+W           watch out                          o
+o     some girls, some girls are only about    W
+o     5 YEARS FROM LOOKING LIKE THEIR MOMS     o
+D                                              p
+p                                              D
+o     girls, you know you better               o
+W            watch out                         o
+o     some guys, some guys are only about      W
+o     TO BECOME BEER-BELLIED COUCH POTATOES    o
+D                                              p
+poWooDpoWooDpoWooDpoWooDpoWooDpoWooDpoWooDpoWooD
+
+
+DISK ADDRESS 0xFA32:
+DATA SEGMENT:
+
+CheredCheredCheredCheredCheredCheredCheredChered
+d                                              C
+e   No matter how hard I try                   h
+r   You keep pushing me aside                  e
+e   And I can't break through                  r
+h   There's no talking to you                  e
+C                                              d
+d   So sad that you're leaving                 C
+e   Takes time to TRASH THAt                   h
+r   But after all is said and done             e
+e   You're going to be the lonely one, Oh Oh   r
+h                                              e
+C   Do you POO-POO On life after love?         d
+d   I can feel something inside me say         C
+e   I really don't think you're strong enough  h
+r   Do you DATE ALIEn life after love?         e
+e   I can feel something inside me say         r
+h   I really don't think you're strong enough  e
+C                                              d
+derehCderehCderehCderehCderehCderehCderehCderehC
+
+
+DISK ADDRESS 0xFA40:
+DATA SEGMENT:
+
+kdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkd
+d                                        k
+k  Even through the darkest phase        d
+d  Be it thick or thin                   k
+k  Always someone marches brave          d
+d  Here beneath my skin                  k
+k                                        d
+d  Constant craving                      k
+k  FOR GAMES WIPES OUT MY BANK ACCOUNT   d
+d                                        k
+kdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkd
+
+
+DISK ADDRESS 0xFA41:
+DATA SEGMENT:
+
+KDKDKDKDKDKDKDKDKDKDKDKDKDKDKDKDKDKDKDKDKD
+D                                        K
+K  Maybe a great magnet pulls            D
+D  All souls toward truth                K
+K  Or maybe it is life itself            D
+D  That feeds wisdom                     K
+K  To its youth                          D
+D                                        K
+K  Constant craving                      D
+D  Has always been                       K
+K                                        D
+D                                        K
+KDKDKDKDKDKDKDKDKDKDKDKDKDKDKDKDKDKDKDKDKD
+
+
+DISK ADDRESS 0xFA50:
+DATA SEGMENT:
+
+HHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJ
+J                                                                  H
+J        Hello, boys and girls.                                    H
+H        This is your old pal Stinky Wizzleteats.                  J
+H                                                                  J
+J   YOUR KOI LOOKS A LOT LIKE a whale --- No!                      H
+J        This is a song about being happy, that's right!           H
+H        It's the "DON'T STEP ON MY THONG" song.                   J
+H                                                                  J
+JJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHH
+
+
+DISK ADDRESS 0xFA51:
+DATA SEGMENT:
+
+hhjjhhjjhhjjhhjjhhjjhhjjhhjjhhjjhhjjhhjjhhjjhhjj
+j                                              h
+j    Happy, Happy, Joy, Joy                    h
+h    Happy, Happy, Joy, Joy                    j
+h    Happy, Happy, Joy, Joy                    j
+j    Happy, Happy, Joy, Joy                    h
+j    Happy, Happy, Joy, Joy                    h
+h    Happy, Happy, Joy, Joy                    j
+h    Happy, Happy, Joy, Joy, Joy!              j
+j                                              h
+j                                              h
+hhjjhhjjhhjjhhjjhhjjhhjjhhjjhhjjhhjjhhjjhhjjhhjj
+
+
+DISK ADDRESS 0xFA52:
+DATA SEGMENT:
+
+HHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJ
+J                                                              H
+J    I don't think you're happy enough, that's right!          H
+H    EVERYONE WANTS to be happy.                               J
+H    I'll teach your grandmother to suck eggs!                 J
+J                                                              H
+J                                                              H
+HHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJ
+
+_______________________ end of segDump call number 0 _______________________
+
+__________________________ vmemDump call number 1 __________________________
+VMEM contents:
+
+FRAME 000:
+000000    20 67 75 79 73 20 61 72  65 20 6f 6e 6c 79 20 61    " guys are only a"
+000010    62 6f 75 74 20 20 20 20  20 20 57 0a 6f 20 20 20    "bout      W.o   "
+000020    20 20 74 68 61 74 20 74  68 69 6e 67 2c 20 74 68    "  that thing, th"
+000030    61 74 20 74 68 69 6e 67  2c 20 20 55 43 48 20 50    "at thing,  UCH P"
+
+FRAME 001:
+000000    68 69 6e 67 2c 20 20 20  20 20 20 6f 0a 44 20 20    "hing,      o.D  "
+000010    20 20 20 20 20 20 20 20  20 20 20 20 20 20 20 20    "                "
+000020    20 20 20 20 20 20 20 20  20 20 20 20 20 20 20 20    "                "
+000030    20 20 20 20 20 20 20 20  20 20 20 20 70 0a 70 6f    "            p.po"
+
+FRAME 002:
+000000    20 67 75 79 73 20 61 72  65 20 6f 6e 6c 79 20 61    " guys are only a"
+000010    62 6f 75 74 20 20 20 20  20 20 57 0a 6f 20 20 20    "bout      W.o   "
+000020    20 20 74 68 61 74 20 74  68 69 6e 67 2c 20 74 68    "  that thing, th"
+000030    61 74 20 74 68 69 6e 67  2c 20 74 68 61 74 20 74    "at thing, that t"
+
+FRAME 003:
+000000    20 74 68 69 6e 67 2c 20  74 68 61 74 20 74 68 69    " thing, that thi"
+000010    6e 67 2c 20 74 68 61 74  20 74 68 69 6e 67 2c 20    "ng, that thing, "
+000020    20 20 20 20 20 6f 0a 44  20 20 20 20 20 20 20 20    "     o.D        "
+000030    20 20 20 20 20 20 20 20  20 20 20 20 20 20 20 20    "                "
+
+FRAME 004:
+000000    0a 4c 55 43 59 26 52 49  43 4b 59 26 46 52 45 44    ".LUCY&RICKY&FRED"
+000010    26 45 54 48 45 4c 26 4c  55 43 59 26 52 49 43 4b    "&ETHEL&LUCY&RICK"
+000020    59 26 46 52 45 44 26 45  54 48 45 4c 26 4c 55 43    "Y&FRED&ETHEL&LUC"
+000030    59 0a 26 20 20 20 20 20  20 20 20 20 20 20 20 20    "Y.&             "
+
+FRAME 005:
+000000    20 20 20 20 61 6e 64 20  49 20 73 61 77 20 61 20    "    and I saw a "
+000010    64 6f 67 20 74 68 69 72  74 79 20 66 65 65 74 20    "dog thirty feet "
+000020    68 69 67 68 2e 20 20 20  20 20 20 20 20 20 20 20    "high.           "
+000030    20 20 20 20 20 20 20 20  20 20 20 66 0a 66 20 20    "           f.f  "
+
+FRAME 006:
+000000    20 20 20 41 6e 64 20 74  68 69 73 20 64 6f 67 20    "   And this dog "
+000010    77 61 73 20 6d 61 64 65  20 65 6e 74 69 72 65 6c    "was made entirel"
+000020    79 20 20 20 20 20 20 20  20 20 20 20 20 20 20 20    "y               "
+000030    20 20 20 20 20 20 20 20  20 20 31 0a 31 20 20 20    "          1.1   "
+
+FRAME 007:
+000000    0a 20 20 20 20 20 20 20  20 20 20 20 20 20 20 20    ".               "
+000010    20 20 20 20 20 20 20 20  20 20 20 20 20 20 20 20    "                "
+000020    20 20 2a 20 0a 20 20 20  20 20 20 20 20 2a 20 77    "  * .        * w"
+000030    68 61 74 20 69 73 20 6c  6f 76 65 3f 20 2a 20 69    "hat is love? * i"
+______________________ end of vmemDump call number 1 _______________________
+
+___________________________ segDump call number 1 __________________________
+
+DISK ADDRESS 0xFA10:
+DATA SEGMENT:
+
+f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0
+0                                                f
+f          I came home today                     0
+0          and you were all on fire.             f
+f          Your shirt was on fire,               0
+0          and your hair was on fire,            f
+f          and flames were licking all around    0
+0          your feet.                            f
+f          And I did not know what to do!        0
+0          And then a thousand violins           f
+f          began to play,                        0
+0          and I really did not know             f
+f          what to do then.                      0
+0          So I just decided to go out           f
+f          and walk the dog.                     0
+0                                                f
+f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0
+
+
+DISK ADDRESS 0xFA11:
+DATA SEGMENT:
+
+f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1
+1                                                            f
+f     I went to the movies,                                  1
+1     and I saw a dog thirty feet high.                      f
+f     And this dog was made entirely                         1
+1     of light.                                              f
+f     And he filled up the whole screen.                     1
+1     And his eyes were long hallways.                       f
+f     He had those                                           1
+1     long, echoing, hallway eyes.                           f
+f                                                            1
+1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f
+
+
+DISK ADDRESS 0xFA12:
+DATA SEGMENT:
+
+f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2
+2                                                f
+f       I turned on the radio                    2
+2       and I heard a song by Dolly Parton.      f
+f       And she was singing:                     2
+2       Oh! I feel so sad! I feel so bad!        f
+f       I left my mom and I left my dad.         2
+2       And I just want to go home now.          f
+f       I just want to go back to my             2
+2       Tennessee mountain home now.             f
+f       Well, you know she's not                 2
+2       gonna go back home.                      f
+f       And I know she's not                     2
+2       gonna go back home.                      f
+f       And she knows she's never                2
+2       gonna go back there.                     f
+f       And I just want to know who's            2
+2       gonna go and walk her dog.               f
+f                                                2
+2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f
+
+
+DISK ADDRESS 0xFA13:
+DATA SEGMENT:
+
+f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3
+3                                                                  f
+f              Oh! I feel so bad.                                  3
+3              I feel so sad.                                      f
+f              But not as bad as the night                         3
+3              I wrote this song.                                  f
+f                                                                  3
+3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f3f
+
+
+DISK ADDRESS 0xFA20:
+DATA SEGMENT:
+
+                                 * 
+        * what is love? * i think i know what love is * 
+    * i think i know what love is? * i think i know * i think * 
+                        * what is love? * 
+  * what is love? * mmm how do you say... * delicious? * delovely * 
+     * delectable * devine * how do you say... * degorgeous? * 
+    * dewith it? * degroovy? * define? * ooh lala lalalalalala * 
+* faux francaise * how do you say delicious? * how do you say delovely? * 
+       * how do you say delectable? * how do you say devine? * 
+ * how do you say degroovy? * dewith it? * how do you say deee-lite? * 
+   * we've been trying to find out, is there really such a thing? * 
+                                *
+
+
+DISK ADDRESS 0xFA30:
+DATA SEGMENT:
+
+LUCY&RICKY&FRED&ETHEL&LUCY&RICKY&FRED&ETHEL&LUCY
+&                                              &
+L     There's a certain couple that I know.    R
+E     They're strictly love birds.             I
+H     A pair of turtle dove birds.             C
+T     He's a guy who wants the world to know,  K
+E     So ev'ry day you'll hear him say:        Y
+&     I love Lucy and she loves me.            &
+D     We're as happy as two can be.            F
+E     Sometimes we quarrel but then            R
+R     How we love making up again.             E
+F     Lucy kisses like no one can.             D
+&     She's my missus and I'm her man.         &
+Y     And life is heaven, you see,             E
+K     'Cause I love Lucy,                      T
+C     Yes, I love Lucy                         H
+I     And Lucy loves me.                       E
+R                                              L
+&                                              &
+YCUL&LEHTE&DERF&YKCIR&YCUL&LEHTE&DERF&YKCIR&YCUL
+
+
+DISK ADDRESS 0xFA31:
+DATA SEGMENT:
+
+DooWopDooWopDooWopDooWopDooWopDooWopDooWopDooWop
+p                                              D
+o     guys, you know you better                o
+W           watch out                          o
+o     some girls, some girls are only about    W
+o     that thing, that thing, that thing,      o
+D                                              p
+p                                              D
+o     girls, you know you better               o
+W            watch out                         o
+o     some guys, some guys are only about      W
+o     that thing, that thing, that thing,      o
+D                                              p
+poWooDpoWooDpoWooDpoWooDpoWooDpoWooDpoWooDpoWooD
+
+
+DISK ADDRESS 0xFA32:
+DATA SEGMENT:
+
+CheredCheredCheredCheredCheredCheredCheredChered
+d                                              C
+e   No matter how hard I try                   h
+r   You keep pushing me aside                  e
+e   And I can't break through                  r
+h   There's no talking to you                  e
+C                                              d
+d   So sad that you're leaving                 C
+e   Takes time to believe it                   h
+r   But after all is said and done             e
+e   You're going to be the lonely one, Oh Oh   r
+h                                              e
+C   Do you believe in life after love?         d
+d   I can feel something inside me say         C
+e   I really don't think you're strong enough  h
+r   Do you believe in life after love?         e
+e   I can feel something inside me say         r
+h   I really don't think you're strong enough  e
+C                                              d
+derehCderehCderehCderehCderehCderehCderehCderehC
+
+
+DISK ADDRESS 0xFA40:
+DATA SEGMENT:
+
+kdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkd
+d                                        k
+k  Even through the darkest phase        d
+d  Be it thick or thin                   k
+k  Always someone marches brave          d
+d  Here beneath my skin                  k
+k                                        d
+d  Constant craving                      k
+k  Has always been                       d
+d                                        k
+kdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkd
+
+
+DISK ADDRESS 0xFA41:
+DATA SEGMENT:
+
+KDKDKDKDKDKDKDKDKDKDKDKDKDKDKDKDKDKDKDKDKD
+D                                        K
+K  Maybe a great magnet pulls            D
+D  All souls toward truth                K
+K  Or maybe it is life itself            D
+D  That feeds wisdom                     K
+K  To its youth                          D
+D                                        K
+K  Constant craving                      D
+D  Has always been                       K
+K                                        D
+D                                        K
+KDKDKDKDKDKDKDKDKDKDKDKDKDKDKDKDKDKDKDKDKD
+
+
+DISK ADDRESS 0xFA50:
+DATA SEGMENT:
+
+HHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJ
+J                                                                  H
+J        Hello, boys and girls.                                    H
+H        This is your old pal Stinky Wizzleteats.                  J
+H                                                                  J
+J        This is a song about a whale --- No!                      H
+J        This is a song about being happy, that's right!           H
+H        It's the "Happy, Happy, Joy, Joy" song.                   J
+H                                                                  J
+JJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHH
+
+
+DISK ADDRESS 0xFA51:
+DATA SEGMENT:
+
+hhjjhhjjhhjjhhjjhhjjhhjjhhjjhhjjhhjjhhjjhhjjhhjj
+j                                              h
+j    Happy, Happy, Joy, Joy                    h
+h    Happy, Happy, Joy, Joy                    j
+h    Happy, Happy, Joy, Joy                    j
+j    Happy, Happy, Joy, Joy                    h
+j    Happy, Happy, Joy, Joy                    h
+h    Happy, Happy, Joy, Joy                    j
+h    Happy, Happy, Joy, Joy, Joy!              j
+j                                              h
+j                                              h
+hhjjhhjjhhjjhhjjhhjjhhjjhhjjhhjjhhjjhhjjhhjjhhjj
+
+
+DISK ADDRESS 0xFA52:
+DATA SEGMENT:
+
+HHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJ
+J                                                              H
+J    I don't think you're happy enough, that's right!          H
+H    I'll teach you to be happy.                               J
+H    I'll teach your grandmother to suck eggs!                 J
+J                                                              H
+J                                                              H
+HHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJHHJJ
+
+_______________________ end of segDump call number 1 _______________________

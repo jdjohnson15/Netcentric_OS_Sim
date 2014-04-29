@@ -1,0 +1,223 @@
+FILE: moses.txt
+
+
+  [begin MOSES output:]
+    First call to JOEY.
+  [:end]
+
+Proc:       JOEY,	 Ctrl num:  0, System call INIT_PROC  	Tm ==  115
+Proc:       JOEY,	 Ctrl num:  1, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    First call to PHOEBE!
+  [:end]
+
+Proc:     PHOEBE,	 Ctrl num:  0, System call INIT_PROC  	Tm ==  112
+Proc:     PHOEBE,	 Ctrl num:  1, Interrupt TIMER        	Tm ==    0
+Proc:       JOEY,	 Ctrl num:  2, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    First call to CHANDLER.
+  [:end]
+
+Proc:   CHANDLER,	 Ctrl num:  0, System call INIT_PROC  	Tm ==  111
+Proc:   CHANDLER,	 Ctrl num:  1, Interrupt TIMER        	Tm ==    0
+Proc:     PHOEBE,	 Ctrl num:  2, Interrupt TIMER        	Tm ==    0
+Proc:       JOEY,	 Ctrl num:  3, System call BEG_OUTPUT 	Tm ==  113
+Proc:       JOEY,	 Ctrl num:  4, System call DO_OUTPUT  	Tm ==  100
+Proc:       JOEY,	 Ctrl num:  5, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    First call to ROSS.
+  [:end]
+
+Proc:       ROSS,	 Ctrl num:  0, System call INIT_PROC  	Tm ==  113
+Proc:       ROSS,	 Ctrl num:  1, Interrupt TIMER        	Tm ==    0
+Proc:   CHANDLER,	 Ctrl num:  2, Interrupt TIMER        	Tm ==    0
+Proc:     PHOEBE,	 Ctrl num:  3, System call BEG_OUTPUT 	Tm ==  112
+Proc:       JOEY,	 Ctrl num:  6, System call DO_OUTPUT  	Tm ==  116
+Proc:       JOEY,	 Ctrl num:  7, System call END_OUTPUT 	Tm ==   97
+
+  [begin MOSES output:]
+    JOEY: I put 100 in Sx, 20 in Rx, and Sx-Rx in Tx. Tx current value: 0x50
+  [:end]
+
+Proc:       JOEY,	 Ctrl num:  8, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    First call to MONICA.
+  [:end]
+
+Proc:     MONICA,	 Ctrl num:  0, System call INIT_PROC  	Tm ==  117
+Proc:     MONICA,	 Ctrl num:  1, Interrupt TIMER        	Tm ==    0
+Proc:       ROSS,	 Ctrl num:  2, Interrupt TIMER        	Tm ==    0
+Proc:   CHANDLER,	 Ctrl num:  3, System call BEG_OUTPUT 	Tm ==  116
+Proc:     PHOEBE,	 Ctrl num:  4, System call DO_OUTPUT  	Tm ==   95
+Proc:     PHOEBE,	 Ctrl num:  5, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    JOEY: Hey. I'm jettin'.
+  [:end]
+
+Proc:       JOEY,	 Ctrl num:  9, Interrupt TERMINATE    	Tm ==  118
+
+  [begin MOSES output:]
+    First call to RACHEL.
+  [:end]
+
+Proc:     RACHEL,	 Ctrl num:  0, System call INIT_PROC  	Tm ==  109
+Proc:     RACHEL,	 Ctrl num:  1, Interrupt TIMER        	Tm ==    0
+Proc:     MONICA,	 Ctrl num:  2, Interrupt TIMER        	Tm ==    0
+Proc:       ROSS,	 Ctrl num:  3, System call BEG_OUTPUT 	Tm ==  115
+Proc:     PHOEBE,	 Ctrl num:  6, System call DO_OUTPUT  	Tm ==  112
+Proc:     PHOEBE,	 Ctrl num:  7, System call END_OUTPUT 	Tm ==  102
+
+  [begin MOSES output:]
+    PHOEBE: I put 300 in Sx, 900 in Rx, and Rx/Sx in Ux. Ux current value: 0x3
+  [:end]
+
+Proc:     PHOEBE,	 Ctrl num:  8, Interrupt TIMER        	Tm ==    0
+Proc: [FRUITFLY],	 Ctrl num:  0, System call INIT_PROC  	Tm ==  112
+Proc: [FRUITFLY],	 Ctrl num:  1, Interrupt TERMINATE    	Tm ==  100
+Proc:     RACHEL,	 Ctrl num:  2, Interrupt TIMER        	Tm ==    0
+Proc:     MONICA,	 Ctrl num:  3, System call BEG_OUTPUT 	Tm ==  112
+Proc:   CHANDLER,	 Ctrl num:  4, System call DO_OUTPUT  	Tm ==  105
+Proc:   CHANDLER,	 Ctrl num:  5, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    PHOEBE: See ya!
+  [:end]
+
+Proc:     PHOEBE,	 Ctrl num:  9, Interrupt TERMINATE    	Tm ==  110
+Proc: [FRUITFLY],	 Ctrl num:  2, System call INIT_PROC  	Tm ==  111
+Proc: [FRUITFLY],	 Ctrl num:  3, Interrupt TERMINATE    	Tm ==   92
+Proc:     RACHEL,	 Ctrl num:  3, System call BEG_OUTPUT 	Tm ==  116
+Proc:   CHANDLER,	 Ctrl num:  6, System call DO_OUTPUT  	Tm ==  118
+Proc:   CHANDLER,	 Ctrl num:  7, System call END_OUTPUT 	Tm ==  106
+
+  [begin MOSES output:]
+    CHANDLER: I put 40 in Tx, 50 in Rx, and Tx*Rx in Ux. Ux current value: 0x7d0
+  [:end]
+
+Proc:   CHANDLER,	 Ctrl num:  8, Interrupt TIMER        	Tm ==    0
+Proc: [FRUITFLY],	 Ctrl num:  4, System call INIT_PROC  	Tm ==  115
+Proc: [FRUITFLY],	 Ctrl num:  5, Interrupt TERMINATE    	Tm ==   98
+Proc:       ROSS,	 Ctrl num:  4, System call DO_OUTPUT  	Tm ==  100
+Proc:       ROSS,	 Ctrl num:  5, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    CHANDLER: Could I be more outta here?
+  [:end]
+
+Proc:   CHANDLER,	 Ctrl num:  9, Interrupt TERMINATE    	Tm ==  109
+Proc: [FRUITFLY],	 Ctrl num:  6, System call INIT_PROC  	Tm ==  116
+Proc: [FRUITFLY],	 Ctrl num:  7, Interrupt TERMINATE    	Tm ==  104
+Proc:       ROSS,	 Ctrl num:  6, System call DO_OUTPUT  	Tm ==  110
+Proc:       ROSS,	 Ctrl num:  7, System call END_OUTPUT 	Tm ==   91
+
+  [begin MOSES output:]
+    ROSS: I put 600 in Ux, 700 in Rx, and Ux+Rx in Tx. Tx current value: 0x514
+  [:end]
+
+Proc:       ROSS,	 Ctrl num:  8, Interrupt TIMER        	Tm ==    0
+Proc: [FRUITFLY],	 Ctrl num:  8, System call INIT_PROC  	Tm ==  111
+Proc: [FRUITFLY],	 Ctrl num:  9, Interrupt TERMINATE    	Tm ==   98
+Proc:     MONICA,	 Ctrl num:  4, System call DO_OUTPUT  	Tm ==   96
+Proc:     MONICA,	 Ctrl num:  5, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    ROSS: Oh. I'm sorry. Was I not supposed to do that?
+  [:end]
+
+Proc:       ROSS,	 Ctrl num:  9, Interrupt PROG_EX      	Tm ==  117
+Proc: [FRUITFLY],	 Ctrl num: 10, System call INIT_PROC  	Tm ==  116
+Proc: [FRUITFLY],	 Ctrl num: 11, Interrupt TERMINATE    	Tm ==   97
+Proc:     MONICA,	 Ctrl num:  6, System call DO_OUTPUT  	Tm ==  115
+Proc:     MONICA,	 Ctrl num:  7, System call END_OUTPUT 	Tm ==  104
+
+  [begin MOSES output:]
+    MONICA: I put 800 in Sx, 900 in Rx, and Sx-Rx in Tx. Tx current value: -100
+  [:end]
+
+Proc:     MONICA,	 Ctrl num:  8, Interrupt TIMER        	Tm ==    0
+Proc: [FRUITFLY],	 Ctrl num: 12, System call INIT_PROC  	Tm ==  109
+Proc: [FRUITFLY],	 Ctrl num: 13, Interrupt TERMINATE    	Tm ==   95
+Proc:     RACHEL,	 Ctrl num:  4, System call DO_OUTPUT  	Tm ==   99
+Proc:     RACHEL,	 Ctrl num:  5, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    MONICA: Terminate? Um, what's that? Hey, you guys?
+  [:end]
+
+Proc:     MONICA,	 Ctrl num:  9, Interrupt TIMER        	Tm ==    0
+Proc: [FRUITFLY],	 Ctrl num: 14, System call INIT_PROC  	Tm ==  110
+Proc: [FRUITFLY],	 Ctrl num: 15, Interrupt TERMINATE    	Tm ==   96
+Proc:     RACHEL,	 Ctrl num:  6, System call DO_OUTPUT  	Tm ==  113
+Proc:     RACHEL,	 Ctrl num:  7, System call END_OUTPUT 	Tm ==  103
+
+  [begin MOSES output:]
+    RACHEL: I put 9 in Ux, 11 in Rx, 5 in Sx and (Rx-Ux)*Sx in Tx. Tx current value: 0xa
+  [:end]
+
+Proc:     RACHEL,	 Ctrl num:  8, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    MONICA: Terminate? Um, what's that? Hey, you guys?
+  [:end]
+
+Proc:     MONICA,	 Ctrl num: 10, Interrupt TIMER        	Tm ==    0
+Proc: [FRUITFLY],	 Ctrl num: 16, System call INIT_PROC  	Tm ==  115
+Proc: [FRUITFLY],	 Ctrl num: 17, Interrupt TERMINATE    	Tm ==   99
+
+  [begin MOSES output:]
+    RACHEL: I am like so outta here.
+  [:end]
+
+Proc:     RACHEL,	 Ctrl num:  9, Interrupt TERMINATE    	Tm ==  117
+
+  [begin MOSES output:]
+    MONICA: Terminate? Um, what's that? Hey, you guys?
+  [:end]
+
+Proc:     MONICA,	 Ctrl num: 11, Interrupt TIMER        	Tm ==    0
+Proc: [FRUITFLY],	 Ctrl num: 18, Interrupt TERMINATE    	Tm ==  118
+
+  [begin MOSES output:]
+    MONICA: Terminate? Um, what's that? Hey, you guys?
+  [:end]
+
+Proc:     MONICA,	 Ctrl num: 12, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    MONICA: Terminate? Um, what's that? Hey, you guys?
+  [:end]
+
+Proc:     MONICA,	 Ctrl num: 13, Interrupt TIMER        	Tm ==    0
+
+ --- [BEGIN I/O FILE CONTENTS:] -------------------- 
+
+	JOEY: Whoa, whoa, whoa, Monica, what're you doing?
+This is a poker game. You can't serve food with more than one syllable.
+It's gotta be like chips, or dip, or pretz... [sudden realization]
+
+	PHOEBE: Hey you guys, look, the one-eyed Jack follows me wherever I go.
+Right, OK, serious poker. You guys, you know what I just realized?
+'Joker' is 'poker' with a 'J'. Coincidence?
+
+	CHANDLER : Hey, that's... that's 'joincidence' with a 'C'!
+
+	ROSS: So. You gals wanna hand over your money now?
+That way, we don't have to go through the formality of actually playing.
+
+	MONICA: You know what? This is not over. We will play you again,
+and you will lose, and you will beg, and we will laugh, and we will take
+every last dime you have, and you will hate yourselves forever.
+
+	RACHEL: Well, well, well, hop back in bucko, cause I got four sixes!
+I won! I actually won! Y'know what? I think I'm gonna make a little
+Ross pile. I think that one was Ross's, and I think--oh--that one
+was Ross's. Yes!
+
+
+ --- [:EOF] ---------------------------------------
+

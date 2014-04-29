@@ -1,0 +1,470 @@
+FILE: moses_m.txt
+
+ [Point of vmemDump call 0.]
+ [Point of segDump call 0.]
+
+  [begin MOSES output:]
+    This is Bart. Deal with it, man.
+  [:end]
+
+Proc:       Bart,	 Ctrl num:  0, System call INIT_PROC  	Tm ==   60
+Proc:       Bart,	 Ctrl num:  1, Activity DO_FETCH      	Tm ==   58
+
+  [begin MOSES output:]
+    Hey kids! This is your favorite Grampa!
+  [:end]
+
+Proc:     Grampa,	 Ctrl num:  0, System call INIT_PROC  	Tm ==   61
+Proc:     Grampa,	 Ctrl num:  1, Activity BEG_ACCESS    	Tm ==   60
+Proc:     Grampa,	 Ctrl num:  2, Activity DO_WRITE      	Tm ==   56
+(Repeat...)
+Proc:       Bart,	 Ctrl num:  2, Activity DO_FETCH      	Tm ==   59
+Proc:       Bart,	 Ctrl num:  3, Activity DO_WRITE      	Tm ==   57
+
+  [begin MOSES output:]
+    Tell them Homer is in the house.
+  [:end]
+
+Proc:      Homer,	 Ctrl num:  0, System call INIT_PROC  	Tm ==   61
+Proc:      Homer,	 Ctrl num:  1, Activity BEG_ACCESS    	Tm ==   56
+(Repeat...)
+Proc:     Grampa,	 Ctrl num:  3, Activity DO_WRITE      	Tm ==   58
+Proc:     Grampa,	 Ctrl num:  4, Interrupt TIMER        	Tm ==    0
+(Repeat...)
+Proc:       Bart,	 Ctrl num:  4, Activity DO_WRITE      	Tm ==   56
+Proc:       Bart,	 Ctrl num:  5, Activity DO_FETCH      	Tm ==   53
+
+  [begin MOSES output:]
+    My name is Lisa.
+  [:end]
+
+Proc:       Lisa,	 Ctrl num:  0, System call INIT_PROC  	Tm ==   63
+Proc:       Lisa,	 Ctrl num:  1, Activity BEG_ACCESS    	Tm ==   58
+Proc:     Grampa,	 Ctrl num:  5, Activity END_ACCESS    	Tm ==   60
+Proc:     Grampa,	 Ctrl num:  6, Activity BEG_ACCESS    	Tm ==   58
+Proc:     Grampa,	 Ctrl num:  7, Activity DO_WRITE      	Tm ==   57
+(Repeat...)
+Proc:       Bart,	 Ctrl num:  6, Activity DO_FETCH      	Tm ==   54
+Proc:       Bart,	 Ctrl num:  7, Activity DO_WRITE      	Tm ==   51
+
+  [begin MOSES output:]
+    (Maggie can't talk yet.)
+  [:end]
+
+Proc:     Maggie,	 Ctrl num:  0, System call INIT_PROC  	Tm ==   62
+Proc:     Maggie,	 Ctrl num:  1, Activity DO_FETCH      	Tm ==   60
+Proc:      Homer,	 Ctrl num:  2, Activity DO_WRITE      	Tm ==   52
+(Repeat...)
+Proc:     Grampa,	 Ctrl num:  8, Activity DO_WRITE      	Tm ==   55
+Proc:     Grampa,	 Ctrl num:  9, Interrupt TIMER        	Tm ==    0
+(Repeat...)
+Proc:       Bart,	 Ctrl num:  8, Activity DO_WRITE      	Tm ==   49
+Proc:       Bart,	 Ctrl num:  9, Activity DO_FETCH      	Tm ==   46
+
+  [begin MOSES output:]
+    How do you do! I'm Marge.
+  [:end]
+
+Proc:      Marge,	 Ctrl num:  0, Interrupt TIMER        	Tm ==    0
+(Repeat...)
+Proc:     Maggie,	 Ctrl num:  2, Activity DO_FETCH      	Tm ==   61
+Proc:     Maggie,	 Ctrl num:  3, Activity DO_WRITE      	Tm ==   58
+(Repeat...)
+Proc:      Homer,	 Ctrl num:  3, Activity DO_WRITE      	Tm ==   52
+Proc:      Homer,	 Ctrl num:  4, Interrupt TIMER        	Tm ==    0
+Proc:     Grampa,	 Ctrl num: 10, Activity END_ACCESS    	Tm ==   61
+Proc:     Grampa,	 Ctrl num: 11, Activity DO_FETCH      	Tm ==   60
+(Repeat...)
+Proc:       Bart,	 Ctrl num: 10, Activity DO_FETCH      	Tm ==   44
+Proc:       Bart,	 Ctrl num: 11, Activity DO_WRITE      	Tm ==   41
+Proc:      Marge,	 Ctrl num:  1, Activity DO_FETCH      	Tm ==   61
+(Repeat...)
+Proc:     Maggie,	 Ctrl num:  4, Activity DO_WRITE      	Tm ==   57
+Proc:     Maggie,	 Ctrl num:  5, Activity DO_FETCH      	Tm ==   52
+Proc:      Homer,	 Ctrl num:  5, Activity END_ACCESS    	Tm ==   61
+Proc:      Homer,	 Ctrl num:  6, Activity BEG_ACCESS    	Tm ==   57
+Proc:      Homer,	 Ctrl num:  7, Activity DO_FETCH      	Tm ==   55
+(Repeat...)
+Proc:     Grampa,	 Ctrl num: 12, Activity DO_FETCH      	Tm ==   59
+Proc:     Grampa,	 Ctrl num: 13, Activity DO_WRITE      	Tm ==   56
+(Repeat...)
+Proc:       Bart,	 Ctrl num: 12, Activity DO_WRITE      	Tm ==   39
+Proc:       Bart,	 Ctrl num: 13, Activity BEG_ACCESS    	Tm ==   35
+(Repeat...)
+Proc:      Marge,	 Ctrl num:  2, Activity DO_FETCH      	Tm ==   62
+Proc:      Marge,	 Ctrl num:  3, Activity DO_WRITE      	Tm ==   57
+(Repeat...)
+Proc:     Maggie,	 Ctrl num:  6, Activity DO_FETCH      	Tm ==   52
+Proc:     Maggie,	 Ctrl num:  7, Activity DO_WRITE      	Tm ==   49
+Proc:       Lisa,	 Ctrl num:  2, Activity DO_WRITE      	Tm ==   54
+(Repeat...)
+Proc:      Homer,	 Ctrl num:  8, Activity DO_FETCH      	Tm ==   52
+Proc:      Homer,	 Ctrl num:  9, Activity DO_WRITE      	Tm ==   51
+Proc:      Homer,	 Ctrl num: 10, Activity END_ACCESS    	Tm ==   50
+Proc:      Homer,	 Ctrl num: 11, Activity BEG_ACCESS    	Tm ==   46
+Proc:      Homer,	 Ctrl num: 12, Activity DO_WRITE      	Tm ==   44
+(Repeat...)
+Proc:     Grampa,	 Ctrl num: 14, Activity DO_WRITE      	Tm ==   57
+Proc:     Grampa,	 Ctrl num: 15, Activity DO_FETCH      	Tm ==   56
+Proc:       Bart,	 Ctrl num: 14, Activity DO_FETCH      	Tm ==   33
+(Repeat...)
+Proc:      Marge,	 Ctrl num:  4, Activity DO_WRITE      	Tm ==   58
+Proc:      Marge,	 Ctrl num:  5, Activity DO_FETCH      	Tm ==   55
+Proc:      Marge,	 Ctrl num:  6, Activity DO_WRITE      	Tm ==   54
+Proc:      Marge,	 Ctrl num:  7, Activity BEG_ACCESS    	Tm ==   52
+(Repeat...)
+Proc:     Maggie,	 Ctrl num:  8, Activity DO_WRITE      	Tm ==   50
+Proc:     Maggie,	 Ctrl num:  9, Activity DO_FETCH      	Tm ==   49
+(Repeat...)
+Proc:       Lisa,	 Ctrl num:  3, Activity DO_WRITE      	Tm ==   57
+Proc:       Lisa,	 Ctrl num:  4, Interrupt TIMER        	Tm ==    0
+(Repeat...)
+Proc:      Homer,	 Ctrl num: 13, Activity DO_WRITE      	Tm ==   41
+Proc:      Homer,	 Ctrl num: 14, Interrupt TIMER        	Tm ==    0
+(Repeat...)
+Proc:     Grampa,	 Ctrl num: 16, Activity DO_FETCH      	Tm ==   54
+Proc:     Grampa,	 Ctrl num: 17, Activity DO_WRITE      	Tm ==   52
+(Repeat...)
+Proc:       Bart,	 Ctrl num: 15, Activity DO_FETCH      	Tm ==   34
+Proc:       Bart,	 Ctrl num: 16, Activity DO_WRITE      	Tm ==   32
+Proc:       Bart,	 Ctrl num: 17, Activity END_ACCESS    	Tm ==   27
+Proc:       Bart,	 Ctrl num: 18, Activity BEG_ACCESS    	Tm ==   23
+(Repeat...)
+Proc:     Maggie,	 Ctrl num: 10, Activity DO_FETCH      	Tm ==   47
+Proc:     Maggie,	 Ctrl num: 11, Activity DO_WRITE      	Tm ==   42
+Proc:       Lisa,	 Ctrl num:  5, Activity END_ACCESS    	Tm ==   63
+Proc:       Lisa,	 Ctrl num:  6, Activity BEG_ACCESS    	Tm ==   60
+Proc:      Homer,	 Ctrl num: 15, Activity END_ACCESS    	Tm ==   63
+Proc:      Homer,	 Ctrl num: 16, Interrupt TIMER        	Tm ==    0
+(Repeat...)
+Proc:     Grampa,	 Ctrl num: 18, Activity DO_WRITE      	Tm ==   49
+Proc:     Grampa,	 Ctrl num: 19, Activity DO_FETCH      	Tm ==   46
+Proc:     Grampa,	 Ctrl num: 20, Activity DO_WRITE      	Tm ==   41
+Proc:     Grampa,	 Ctrl num: 21, Interrupt TIMER        	Tm ==    0
+Proc:      Marge,	 Ctrl num:  8, Activity DO_WRITE      	Tm ==   47
+Proc:      Marge,	 Ctrl num:  9, Interrupt TIMER        	Tm ==    0
+(Repeat...)
+Proc:     Maggie,	 Ctrl num: 12, Activity DO_WRITE      	Tm ==   43
+Proc:     Maggie,	 Ctrl num: 13, Activity DO_FETCH      	Tm ==   42
+Proc:      Homer,	 Ctrl num: 17, Interrupt TIMER        	Tm ==    0
+Proc:     Grampa,	 Ctrl num: 22, Interrupt TIMER        	Tm ==    0
+Proc:      Marge,	 Ctrl num: 10, Activity END_ACCESS    	Tm ==   61
+Proc:      Marge,	 Ctrl num: 11, Activity BEG_ACCESS    	Tm ==   57
+Proc:      Marge,	 Ctrl num: 12, Activity DO_FETCH      	Tm ==   55
+Proc:      Marge,	 Ctrl num: 13, Activity DO_WRITE      	Tm ==   51
+Proc:      Marge,	 Ctrl num: 14, Activity END_ACCESS    	Tm ==   47
+Proc:      Marge,	 Ctrl num: 15, Interrupt TIMER        	Tm ==    0
+(Repeat...)
+Proc:     Maggie,	 Ctrl num: 14, Activity DO_FETCH      	Tm ==   38
+Proc:     Maggie,	 Ctrl num: 15, Activity DO_WRITE      	Tm ==   34
+Proc:      Homer,	 Ctrl num: 18, System call BEG_OUTPUT 	Tm ==   62
+Proc:      Homer,	 Ctrl num: 19, System call DO_OUTPUT  	Tm ==   57
+Proc:      Homer,	 Ctrl num: 20, Interrupt TIMER        	Tm ==    0
+Proc:     Grampa,	 Ctrl num: 23, System call BEG_OUTPUT 	Tm ==   59
+Proc:       Bart,	 Ctrl num: 19, Activity DO_WRITE      	Tm ==   20
+Proc:      Marge,	 Ctrl num: 16, System call BEG_OUTPUT 	Tm ==   63
+(Repeat...)
+Proc:     Maggie,	 Ctrl num: 16, Activity DO_WRITE      	Tm ==   36
+Proc:     Maggie,	 Ctrl num: 17, Activity BEG_ACCESS    	Tm ==   32
+Proc:      Homer,	 Ctrl num: 21, System call DO_OUTPUT  	Tm ==   59
+Proc:      Homer,	 Ctrl num: 22, System call END_OUTPUT 	Tm ==   56
+
+  [begin MOSES output:]
+    Homer: I put 4 in Rx, 15 in Sx, Rx*Sx in Tx. Tx is now 60
+  [:end]
+
+Proc:      Homer,	 Ctrl num: 23, Interrupt TIMER        	Tm ==    0
+Proc:     Grampa,	 Ctrl num: 24, System call DO_OUTPUT  	Tm ==   57
+Proc:     Grampa,	 Ctrl num: 25, Interrupt TIMER        	Tm ==    0
+(Repeat...)
+Proc:       Bart,	 Ctrl num: 20, Activity DO_WRITE      	Tm ==   21
+Proc:       Bart,	 Ctrl num: 21, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    Homer: A Plutonium leak in the reactor?! Doh! I must call the President!
+  [:end]
+
+Proc:      Homer,	 Ctrl num: 24, ERROR (event: 106)     	Tm ==   59
+Proc:     Grampa,	 Ctrl num: 26, System call DO_OUTPUT  	Tm ==   59
+Proc:     Grampa,	 Ctrl num: 27, System call END_OUTPUT 	Tm ==   58
+
+  [begin MOSES output:]
+    Grampa: I put 3 in Tx, 19 in Sx, Sx/Tx in Rx. Rx is now 6
+  [:end]
+
+Proc:     Grampa,	 Ctrl num: 28, Interrupt TIMER        	Tm ==    0
+Proc:       Bart,	 Ctrl num: 22, Activity END_ACCESS    	Tm ==   63
+Proc:       Bart,	 Ctrl num: 23, Interrupt TIMER        	Tm ==    0
+Proc:      Marge,	 Ctrl num: 17, System call DO_OUTPUT  	Tm ==   58
+Proc:      Marge,	 Ctrl num: 18, Interrupt TIMER        	Tm ==    0
+Proc:       Lisa,	 Ctrl num:  7, Activity DO_WRITE      	Tm ==   56
+Proc:       Lisa,	 Ctrl num:  8, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    Grampa: Let's see now. How do you work this dern contraption?
+  [:end]
+
+Proc:     Grampa,	 Ctrl num: 29, Interrupt PROG_EX      	Tm ==   61
+Proc:       Bart,	 Ctrl num: 24, Interrupt TIMER        	Tm ==    0
+Proc:      Marge,	 Ctrl num: 19, System call DO_OUTPUT  	Tm ==   62
+Proc:      Marge,	 Ctrl num: 20, System call END_OUTPUT 	Tm ==   59
+
+  [begin MOSES output:]
+    Marge: I put 90 in Rx, 110 in Sx, Sx-Rx in Tx. Tx is now 20
+  [:end]
+
+Proc:      Marge,	 Ctrl num: 21, Interrupt TIMER        	Tm ==    0
+Proc:       Lisa,	 Ctrl num:  9, Activity END_ACCESS    	Tm ==   61
+Proc:       Lisa,	 Ctrl num: 10, Activity BEG_ACCESS    	Tm ==   58
+Proc:       Lisa,	 Ctrl num: 11, Activity DO_FETCH      	Tm ==   55
+Proc:       Lisa,	 Ctrl num: 12, Activity DO_WRITE      	Tm ==   52
+Proc:       Lisa,	 Ctrl num: 13, Activity END_ACCESS    	Tm ==   50
+Proc:       Lisa,	 Ctrl num: 14, Interrupt TIMER        	Tm ==    0
+Proc:       Bart,	 Ctrl num: 25, System call BEG_OUTPUT 	Tm ==   62
+Proc:       Bart,	 Ctrl num: 26, System call DO_OUTPUT  	Tm ==   61
+Proc:       Bart,	 Ctrl num: 27, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    Marge: Excuse me please, but I have a HUGE grocery list to write!
+  [:end]
+
+Proc:      Marge,	 Ctrl num: 22, Activity DO_WRITE      	Tm ==   62
+Proc:     Maggie,	 Ctrl num: 18, Activity DO_WRITE      	Tm ==   30
+Proc:       Lisa,	 Ctrl num: 15, Interrupt TIMER        	Tm ==    0
+Proc:       Bart,	 Ctrl num: 28, System call DO_OUTPUT  	Tm ==   63
+Proc:       Bart,	 Ctrl num: 29, System call END_OUTPUT 	Tm ==   58
+
+  [begin MOSES output:]
+    Bart: I put 11 in Tx, 2 in Sx, Sx-Tx in Rx. Rx is now -9
+  [:end]
+
+Proc:       Bart,	 Ctrl num: 30, Interrupt TIMER        	Tm ==    0
+(Repeat...)
+Proc:     Maggie,	 Ctrl num: 19, Activity DO_WRITE      	Tm ==   27
+Proc:       Lisa,	 Ctrl num: 16, System call BEG_OUTPUT 	Tm ==   59
+Proc:       Lisa,	 Ctrl num: 17, System call DO_OUTPUT  	Tm ==   58
+Proc:       Lisa,	 Ctrl num: 18, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    Bart: Almost done. Just grapping a late byte.
+  [:end]
+
+Proc:       Bart,	 Ctrl num: 31, Activity DO_FETCH      	Tm ==   59
+(Repeat...)
+Proc:     Maggie,	 Ctrl num: 20, Activity DO_WRITE      	Tm ==   30
+Proc:     Maggie,	 Ctrl num: 21, Interrupt TIMER        	Tm ==    0
+Proc:       Lisa,	 Ctrl num: 19, System call DO_OUTPUT  	Tm ==   61
+Proc:       Lisa,	 Ctrl num: 20, System call END_OUTPUT 	Tm ==   58
+
+  [begin MOSES output:]
+    Lisa: I put 6 in Rx, 7 in Sx, Rx+Sx in Tx. Tx is now 13
+  [:end]
+
+Proc:       Lisa,	 Ctrl num: 21, Interrupt TIMER        	Tm ==    0
+Proc:     Maggie,	 Ctrl num: 22, Activity END_ACCESS    	Tm ==   62
+Proc:     Maggie,	 Ctrl num: 23, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    Lisa: I'd love to stay and chat, but I have an essay to write.
+  [:end]
+
+Proc:       Lisa,	 Ctrl num: 22, Activity DO_WRITE      	Tm ==   62
+Proc:     Maggie,	 Ctrl num: 24, Interrupt TIMER        	Tm ==    0
+Proc:     Maggie,	 Ctrl num: 25, System call BEG_OUTPUT 	Tm ==   63
+Proc:     Maggie,	 Ctrl num: 26, System call DO_OUTPUT  	Tm ==   58
+Proc:     Maggie,	 Ctrl num: 27, Interrupt TIMER        	Tm ==    0
+Proc:     Maggie,	 Ctrl num: 28, System call DO_OUTPUT  	Tm ==   61
+Proc:     Maggie,	 Ctrl num: 29, System call END_OUTPUT 	Tm ==   58
+
+  [begin MOSES output:]
+    Maggie: I put 80 in Rx, 90 in Sx, Rx-Sx in Tx. Tx is now -10
+  [:end]
+
+Proc:     Maggie,	 Ctrl num: 30, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    Maggie: !!&#@?!!! (== No! Not my bedtime!)
+  [:end]
+
+Proc:     Maggie,	 Ctrl num: 31, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    Maggie: !!&#@?!!! (== No! Not my bedtime!)
+  [:end]
+
+Proc:     Maggie,	 Ctrl num: 32, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    Maggie: !!&#@?!!! (== No! Not my bedtime!)
+  [:end]
+
+Proc:     Maggie,	 Ctrl num: 33, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    Maggie: !!&#@?!!! (== No! Not my bedtime!)
+  [:end]
+
+Proc:     Maggie,	 Ctrl num: 34, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    Maggie: !!&#@?!!! (== No! Not my bedtime!)
+  [:end]
+
+Proc:     Maggie,	 Ctrl num: 35, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    Maggie: !!&#@?!!! (== No! Not my bedtime!)
+  [:end]
+
+Proc:     Maggie,	 Ctrl num: 36, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    Maggie: !!&#@?!!! (== No! Not my bedtime!)
+  [:end]
+
+Proc:     Maggie,	 Ctrl num: 37, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    Maggie: !!&#@?!!! (== No! Not my bedtime!)
+  [:end]
+
+Proc:     Maggie,	 Ctrl num: 38, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    Maggie: !!&#@?!!! (== No! Not my bedtime!)
+  [:end]
+
+Proc:     Maggie,	 Ctrl num: 39, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    Maggie: !!&#@?!!! (== No! Not my bedtime!)
+  [:end]
+
+Proc:     Maggie,	 Ctrl num: 40, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    Maggie: !!&#@?!!! (== No! Not my bedtime!)
+  [:end]
+
+Proc:     Maggie,	 Ctrl num: 41, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    Maggie: !!&#@?!!! (== No! Not my bedtime!)
+  [:end]
+
+Proc:     Maggie,	 Ctrl num: 42, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    Maggie: !!&#@?!!! (== No! Not my bedtime!)
+  [:end]
+
+Proc:     Maggie,	 Ctrl num: 43, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    Maggie: !!&#@?!!! (== No! Not my bedtime!)
+  [:end]
+
+Proc:     Maggie,	 Ctrl num: 44, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    Maggie: !!&#@?!!! (== No! Not my bedtime!)
+  [:end]
+
+Proc:     Maggie,	 Ctrl num: 45, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    Maggie: !!&#@?!!! (== No! Not my bedtime!)
+  [:end]
+
+Proc:     Maggie,	 Ctrl num: 46, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    Maggie: !!&#@?!!! (== No! Not my bedtime!)
+  [:end]
+
+Proc:     Maggie,	 Ctrl num: 47, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    Maggie: !!&#@?!!! (== No! Not my bedtime!)
+  [:end]
+
+Proc:     Maggie,	 Ctrl num: 48, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    Maggie: !!&#@?!!! (== No! Not my bedtime!)
+  [:end]
+
+Proc:     Maggie,	 Ctrl num: 49, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    Maggie: !!&#@?!!! (== No! Not my bedtime!)
+  [:end]
+
+Proc:     Maggie,	 Ctrl num: 50, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    Maggie: !!&#@?!!! (== No! Not my bedtime!)
+  [:end]
+
+Proc:     Maggie,	 Ctrl num: 51, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    Maggie: !!&#@?!!! (== No! Not my bedtime!)
+  [:end]
+
+Proc:     Maggie,	 Ctrl num: 52, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    Maggie: !!&#@?!!! (== No! Not my bedtime!)
+  [:end]
+
+Proc:     Maggie,	 Ctrl num: 53, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    Maggie: !!&#@?!!! (== No! Not my bedtime!)
+  [:end]
+
+Proc:     Maggie,	 Ctrl num: 54, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    Maggie: !!&#@?!!! (== No! Not my bedtime!)
+  [:end]
+
+Proc:     Maggie,	 Ctrl num: 55, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    Maggie: !!&#@?!!! (== No! Not my bedtime!)
+  [:end]
+
+Proc:     Maggie,	 Ctrl num: 56, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    Maggie: !!&#@?!!! (== No! Not my bedtime!)
+  [:end]
+
+Proc:     Maggie,	 Ctrl num: 57, Interrupt TIMER        	Tm ==    0
+
+  [begin MOSES output:]
+    Maggie: !!&#@?!!! (== No! Not my bedtime!)
+  [:end]
+
+Proc:     Maggie,	 Ctrl num: 58, Interrupt TIMER        	Tm ==    0
+
+ --- [BEGIN I/O FILE CONTENTS:] -------------------- 
+
+Homer says: Would you, by any chance, be through with those doughnuts?
+Grampa says: Hey kids! Give me give me back my teeth! You little hoodlums!
+Marge says: Bart! What have your father and I told you about taking 
+	squirt guns to school?!
+Bart says: Don't have a cow, man.
+Lisa says: I feel that as mere processes in the great computer of life, we
+	all have certain responsibilities --- such as recognizing when our 
+	time has come to relinquish control of devices we must 
+	share with others. Thank you.
+Maggie says: ??*@! &!+?GG@*&? (== Let's watch Itchy and Scratchy!)
+
+ --- [:EOF] ---------------------------------------
+
+
+ [Point of vmemDump call 1.]
+ [Point of segDump call 1.]
